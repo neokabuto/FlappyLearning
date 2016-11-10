@@ -146,7 +146,8 @@ Game.prototype.update = function(){
 
 			var inputs = [
 			this.birds[i].y / this.height,
-			nextHoll
+			nextHoll,
+			this.birds[i].velocity
 			];
 
 			var res = this.gen[i].compute(inputs);
