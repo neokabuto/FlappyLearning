@@ -260,8 +260,8 @@ window.onload = function(){
 
 	var start = function(){
 		Neuvol = new Neuroevolution({
-			population:50,
-			network:[2, [2], 1],
+			population:100,
+			network:[3, [2], 1],
 		});
 		game = new Game();
 		game.start();
